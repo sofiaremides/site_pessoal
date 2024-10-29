@@ -31,5 +31,5 @@ Este projeto foi criado para para concluir um desafio proposto durante o process
 ### Contato
 Para qualquer dúvida ou para discutir oportunidades, você pode entrar em contato comigo através das redes sociais listadas:
 - LinkedIn: https://linkedin.com/in/sofiaremides 
-- Instagram: https://intagram.com/sofiaremides
+- Instagram: https://instagram.com/sofiaremides
 - GitHub: https://github.com/sofiaremides
