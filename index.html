@@ -4,36 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"/>
-    <title>Sofia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Sobre Sofia</title>
 </head>
 
 <body>
     <nav class="navbar">
-
-        <img id="logo" src="./imagens/0c12dd224407af7a347912d65f52ffda.jpg" alt="logo"/>
-        
+        <img id="logo" src=".\imagens\Logo.png" alt="logo"/>
         <div class="links">
-            <a class="link" href="">home</a>
+            <a class="link" href="#home">Home</a>
+            <a class="link" href="#about">Sobre</a>
+            <a class="link" href="#skills">Habilidades</a>
+            <a class="link" href="#contact">Contato</a>
         </div>
-
     </nav>
 
-    <section class="main">
+    <!-- Home -->
+    <section id="home" class="main">
         <div class="text">
             <h3>
-                Olá, eu sou Sofia, tenho 19 anos e sou estudante de Ciência da Computação no CIn - UFPE.
+                Olá, eu sou Sofia!
             </h3>
-            <p>
-                Tenho interesse em aprender mais sobre desenvolvimento web e mobile.
-            </p>
-            <a href="https://github.com/sofiaremides">
-                <button>
-                    Saiba mais
-                </button>
+        </div>
+    </section>
+
+    <!-- : Sobre -->
+<section id="about">
+    <div class="texto">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou estudante de Ciência da Computação no Centro de Informática da UFPE e tenho 19 anos.
+            <br> Sou motivada pelo desejo de aprender e me desafiar constantemente, sempre em busca de novas experiências e conhecimentos para expandir minhas habilidades. Apaixonada por esportes, sempre me envolvi em várias modalidades durante o colégio, aproveitando cada oportunidade para desenvolver disciplina, foco e trabalho em equipe.
+        </p>
+    </div>
+    <img id="foto" src=".\imagens\sofia.png" alt="foto"/>
+</section>
+
+
+    <!-- Habilidades -->
+    <section id="skills">
+        <h2>
+            Habilidades
+        </h2>
+        
+        <ul>
+            <li>
+                C
+            </li>
+            <li>
+                Python
+            </li>
+            <li>
+                Data Analytics
+            </li>
+            <li>
+                Google Colab | Jupyter Notebook
+            </li>
+        </ul>
+    </section>
+
+
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Para saber mais ou discutir oportunidades, entre em contato!</p>
+        
+        <!-- Botões de redes sociais -->
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/sofiaremides" target="_blank">
+                <button class="linkedin">LinkedIn</button>
             </a>
-            
+            <a href="https://www.instagram.com/sofiaremides" target="_blank">
+                <button class="instagram">Instagram</button>
+            </a>
+            <a href="https://github.com/sofiaremides" target="_blank">
+                <button class="github">GitHub</button>
+            </a>
+
         </div>
 
     </section>
+
+
 </body>
 </html>

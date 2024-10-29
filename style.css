@@ -1,6 +1,7 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: rgba(254, 216, 241, 0.55);
 }
 
 .navbar {
@@ -8,35 +9,48 @@ body {
     flex-direction: row;
     padding: 0 50px;
     justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #logo {
     width: 10vh;
 }
 
-.main {
-    display: flex;
-    background-color: rgba(254, 216, 241, 0.551);
-
-}
-
 .links {
     display: flex;
     gap: 40px;
     align-items: center;
+}
 
-    a {
-        text-decoration: none;
-        color: rgb(255, 24, 170);
-    }
+.links a {
+    text-decoration: none;
+    color: rgb(255, 24, 170);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: rgba(255, 24, 170, 0.7);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+    min-height: 10vh
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    margin: 50px;
     justify-content: center;
     color: rgb(255, 24, 170);
+    max-width: 600px;
 }
 
 button {
@@ -45,4 +59,120 @@ button {
     background-color: rgb(255, 24, 170);
     border-radius: 8px;
     color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 24, 170, 0.8);
+}
+
+section {
+    padding: 50px;
+    margin: 20px 0;
+}
+
+#about, #skills, #contact {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(255, 24, 170);
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.texto {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#skills li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#skills li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: rgb(255, 24, 170);
+}
+
+#about {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about .text {
+    flex: 1; 
+    text-align: left; 
+}
+
+#foto {
+    width: 300px; 
+    height: auto;
+    margin-left: 20px; 
+}
+
+
+
+
+.social-buttons a {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo individual para cada botão */
+button.linkedin {
+    background-color: #0A66C2;
+}
+
+button.linkedin:hover {
+    background-color: #084a96;
+}
+
+button.instagram {
+    background-color: #E4405F;
+}
+
+button.instagram:hover {
+    background-color: #bf2045;
+}
+
+button.github {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button.github:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
